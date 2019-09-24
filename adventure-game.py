@@ -78,6 +78,7 @@ def second_floor(items):
     second_floor(items)
 
 def third_floor(items):
+    beast = random.choice(["dragon", "python", "bear"])
     printpause(f"You are on the 3rd floor and see a {beast} guarding a door.")
     printpause(f"The {beast} finds you and is ready to attack you.")
     three = input(f"Would you like to (1) fight the {beast} or (2) run away?"
